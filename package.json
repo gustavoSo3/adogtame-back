@@ -1,0 +1,42 @@
+{
+  "name": "adogtame",
+  "version": "1.0.0",
+  "description": "Adoptar Perritos",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InakiOrozco/Adogtame.git"
+  },
+  "keywords": [
+    "Dogs",
+    "Puppies",
+    "Web"
+  ],
+  "author": "Gustavo, Iñaki, Ana Denisse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InakiOrozco/Adogtame/issues"
+  },
+  "homepage": "https://github.com/InakiOrozco/Adogtame#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1036.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.10.0",
+    "passport": "^0.5.0",
+    "passport-google-oauth20": "^2.0.0",
+    "sass": "^1.43.4",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
